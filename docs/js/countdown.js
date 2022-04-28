@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $(".countdown").countdown("2022/1/1", function(e) {
+    $(".countdown").countdown("2022/5/6", function(e) {
         $("#days").text(
             e.strftime('%D')
         );
